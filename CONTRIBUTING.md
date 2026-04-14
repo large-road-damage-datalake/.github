@@ -46,7 +46,7 @@ Do not contribute material you do not have the rights to redistribute.
 - If metadata keys change, explain **migration impact** for consumers (e.g., website rendering).
 
 ## Code of conduct
-Please read `CODE_OF_CONDUCT.md` (if present in this repository or the organization defaults).
+Please read [`CODE_OF_CONDUCT.md`].
 
 ## Security
-If you believe you’ve found a security vulnerability, please read `SECURITY.md` and do not post it publicly.
+If you believe you’ve found a security vulnerability, please read [`SECURITY.md`](https://github.com/large-road-damage-datalake/.github/blob/main/SECURITY.md) and do not post it publicly.
