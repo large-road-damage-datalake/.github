@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest an improvement to dataset tracking, metadata, stats, or documentation.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. If this is a general question, please use **Discussions** instead.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Affected repository (if any)
+      description: Paste the dataset repository URL. Leave blank if org-wide.
+      placeholder: "https://github.com/large-road-damage-datalake/<repo>"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      description: What is missing or hard today?
+      placeholder: Example — we can't consistently represent a new distress category across datasets.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should happen instead? Be specific (metadata fields, taxonomy, stats, docs, template changes).
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples (optional)
+      description: Links to papers, upstream datasets, screenshots, or example `METADATA.json` snippets.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This affects multiple dataset repositories (org-wide consistency)
+        - label: This is specific to one dataset repository
+        - label: This is about the dataset template repo (`dataset-template`)
