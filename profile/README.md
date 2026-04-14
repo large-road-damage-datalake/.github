@@ -25,7 +25,7 @@ Each dataset repository includes a `DOWNLOAD.md` describing:
 ## Reproducible dataset packaging
 To reproduce a dataset repository in this organization, start from:
 
-- Template: @dataset-template
+- Template: [dataset-template](https://github.com/large-road-damage-datalake/dataset-template)
 
 It provides the same folder structure and scripts used to generate metadata, stats, and sample visualizations, along with validation helpers.
 
