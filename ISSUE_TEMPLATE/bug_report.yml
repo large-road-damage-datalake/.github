@@ -1,0 +1,78 @@
+name: Bug report
+description: Report incorrect metadata/stats, broken links, wrong documentation, or packaging problems.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include links to the exact files in the dataset repository (GitHub permalinks are ideal).
+
+  - type: input
+    id: repo
+    attributes:
+      label: Dataset repository
+      description: Paste the repository URL where you found the problem.
+      placeholder: "https://github.com/large-road-damage-datalake/<repo>"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two sentences describing what is wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / pointers
+      description: |
+        Paste links to relevant files/sections, for example:
+        - `METADATA.json`
+        - `stats/stats.json`
+        - `visualizations/...`
+        - `DOWNLOAD.md`, `SUMMARY.md`, `README.md`
+      placeholder: |
+        - File: ...
+        - Screenshot: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps (if applicable)
+      description: If this relates to template validation or generation, include the command you ran and the error output.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Broken link / missing upstream reference
+        - Incorrect metadata (`METADATA.json`)
+        - Incorrect stats (`stats/...`)
+        - Incorrect samples/visualizations (`visualizations/...`)
+        - Documentation issue (`README.md`, `SUMMARY.md`, `ABSTRACT.md`, `CITATION.md`, `LICENSE.md`)
+        - Template/packaging/validation issue
+    validations:
+      required: true
