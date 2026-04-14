@@ -1,4 +1,4 @@
-# Large Road Damage Datasets
+# Large Road Damage Datalake
 
 A curated catalog of road-surface damage datasets (cracks, potholes, and related distress types) organized for consistent discovery, comparison, and reuse across computer-vision research projects.
 
