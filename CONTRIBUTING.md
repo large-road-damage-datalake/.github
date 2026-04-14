@@ -39,7 +39,7 @@ Treat changes to `METADATA.json` like a compatibility contract: coordinate updat
 ## Code of conduct
 This organization uses the **Contributor Covenant** code of conduct:
 
-- Contributor Covenant 2.1: `https://www.contributor-covenant.org/version/2/1/code_of_conduct/`
+- [`Contributor Covenant 2.1`](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
 ## Security
 Report security issues using [`SECURITY.md`](https://github.com/large-road-damage-datalake/.github/blob/main/SECURITY.md). Do not post undisclosed vulnerabilities in public Issues or Discussions.
