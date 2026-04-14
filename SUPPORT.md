@@ -1,7 +1,7 @@
 # Support
 
 ## Where to ask questions
-- **GitHub Discussions**: best for general questions, dataset comparisons, and guidance on using the dataset template.
+- **@discussion GitHub Discussions**: best for general questions, dataset comparisons, and guidance on using the dataset template.
 
 ## When to open an Issue
 Open an Issue when there is a concrete problem we can fix, such as:
