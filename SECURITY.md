@@ -38,4 +38,4 @@ We consider good-faith security research that follows this policy to be authoriz
 - Pin third-party GitHub Actions to immutable references when practical.
 
 ## Non-goals
-This channel is not for general dataset questions, website feature requests, or data licensing disputes—please use [Discussions](https://github.com/orgs/large-road-damage-datalake/discussions) or Issues for those topics.
+This channel is not for general dataset questions, website feature requests, or data licensing disputes—please use Discussions or Issues for those topics.
