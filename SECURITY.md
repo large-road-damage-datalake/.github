@@ -12,7 +12,7 @@ Please report security issues privately.
 3. Use **Report a vulnerability** and follow the form.
 
 ### Option B — Email
-Send an email to the security contact listed on the GitHub organization profile (or the maintainer contact published on the project website, if shown there).
+Send an email to the security contact listed on the GitHub organization profile: contact@rauffatali.com.
 
 Include:
 - Summary of the issue and suspected impact
