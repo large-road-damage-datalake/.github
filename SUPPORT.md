@@ -1,7 +1,7 @@
 # Support
 
 ## Where to ask questions
-- **GitHub [Discussions](https://github.com/orgs/large-road-damage-datalake/discussions)**: best for general questions, dataset comparisons, and guidance on using the dataset template.
+- **[GitHub Discussions](https://github.com/orgs/large-road-damage-datalake/discussions)**: best for general questions, dataset comparisons, and guidance on using the dataset template.
 
 ## When to open an Issue
 Open an Issue when there is a concrete problem we can fix, such as:
@@ -15,4 +15,4 @@ Open an Issue when there is a concrete problem we can fix, such as:
 - What you expected vs what you observed (screenshots help)
 
 ## Security
-Please do not post security reports publicly. See `SECURITY.md`.
+Please do not post security reports publicly. See [`SECURITY.md`](https://github.com/large-road-damage-datalake/.github/blob/main/SECURITY.md).
